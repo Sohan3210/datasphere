@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/datasphere/static/css/main.a595cb96.css",
+    "main.js": "/datasphere/static/js/main.2dcb915e.js",
+    "static/js/453.20359781.chunk.js": "/datasphere/static/js/453.20359781.chunk.js",
+    "index.html": "/datasphere/index.html",
+    "main.a595cb96.css.map": "/datasphere/static/css/main.a595cb96.css.map",
+    "main.2dcb915e.js.map": "/datasphere/static/js/main.2dcb915e.js.map",
+    "453.20359781.chunk.js.map": "/datasphere/static/js/453.20359781.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a595cb96.css",
+    "static/js/main.2dcb915e.js"
+  ]
+}
