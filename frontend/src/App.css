@@ -1,0 +1,18 @@
+:root {
+  --primary: #00d9ff;
+  --dark-bg: #0a0e27;
+  --card-bg: #1a1f3a;
+  --text-primary: #e8eef7;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--dark-bg); color: var(--text-primary); font-family: Segoe UI, Roboto; }
+.app { min-height: 100vh; }
+.navbar { background: #060a1a; border-bottom: 1px solid #2a3050; padding: 2rem; text-align: center; }
+.navbar h1 { font-size: 2.5rem; color: var(--primary); margin-bottom: 0.5rem; }
+.main-content { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+.card { background: var(--card-bg); border: 1px solid #2a3050; border-radius: 12px; padding: 1.5rem; transition: all 0.3s; }
+.card:hover { border-color: var(--primary); box-shadow: 0 0 20px rgba(0, 217, 255, 0.1); }
+.card h2 { margin-bottom: 1rem; color: var(--primary); }
+.card p, .card div { margin: 0.5rem 0; color: #a0aac0; }
